@@ -13,7 +13,7 @@
   "permissions": [
     "tabs",
     "http://*/*",
-    "https://*/*",
+    "https://*/*"
   ],
   "manifest_version": 2
 }
