@@ -22,7 +22,7 @@ var cenafy = function() {
 };
 
 var getCenaed = function() {
-	var chance = Math.floor(Math.random() * 1000);
+	var chance = Math.floor(Math.random() * 100);
 	if(chance == 69) {
 		cenafy();
 	}
