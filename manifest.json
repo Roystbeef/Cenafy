@@ -1,0 +1,19 @@
+{
+  "name": "Cenafy",
+  "version": "1.0.0",
+  "description": "And his name was John Cena",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery-1.11.1.min.js", "background.js"]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+  ],
+  "manifest_version": 2
+}
