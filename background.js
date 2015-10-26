@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	var chance = Math.floor(Math.random() * 100);
-	if(chance === 69) {
+  // dont loop on instant cena
+	if(chance === 69 && window.location.href.indexOf('instantcena') === -1) {
 		cenafy();
 	}
 });
@@ -8,5 +9,5 @@ $(document).ready(function() {
 var cenafy = function() {
 	setTimeout(function() {
 		window.location.href = "http://instantcena.com/";
-	}, 20000);
+	}, 3000);
 };
