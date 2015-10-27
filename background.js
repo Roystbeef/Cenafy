@@ -1,29 +1,22 @@
 $(document).ready(function() {
-	getCenaed();
-});
-
-var generateHTML = function() {
-	var html = "<img src='https://raw.githubusercontent.com/Roystbeef/Cenafy/master/john_cena.gif' style='height: 100vh; width: 100vw'></img>";
-	html += "<audio id='scream' src='https://raw.githubusercontent.com/Roystbeef/Cenafy/master/john_cena.mp3'></audio>";
-	return html;
-};
-
-var playAudio = function () {
-	document.getElementById('scream').play();
-};
-
-var cenafy = function() {
-	var html = generateHTML();
-	$('body').html(html);
-	playAudio();
-	setTimeout(function() {
-		window.location.replace(document.URL);
-	}, 20000);
-};
-
-var getCenaed = function() {
 	var chance = Math.floor(Math.random() * 100);
 	if(chance == 69) {
 		cenafy();
 	}
+});
+
+var generateHTML = function() {
+	var html = "<video autoplay loop style='height: 100vh; width: 100vw'><source src='https://raw.githubusercontent.com/Roystbeef/Cenafy/master/cena.webm' type='video/webm'><source src='https://raw.githubusercontent.com/Roystbeef/Cenafy/master/cena.mp4' type='video/mp4'></video>";
+	return html;
+};
+
+var cenafy = function() {
+	setTimeout(function() { // Wait 3 seconds before cenafying
+		var html = generateHTML();
+		$('body').html(html);
+		document.body.style.backgroundColor = "black";
+		setTimeout(function() { // Wait 20 seconds for cena to finish
+			window.location.replace(document.URL);
+		}, 20000);
+	}, 3000);
 };

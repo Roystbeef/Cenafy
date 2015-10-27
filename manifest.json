@@ -1,6 +1,6 @@
 {
   "name": "Cenafy",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "And his name is John Cena",
 
   "content_scripts": [
