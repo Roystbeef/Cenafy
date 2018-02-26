@@ -1,7 +1,5 @@
-# Cenafy
+# Rigglefy
 
-A Google Chrome Extension has a 1/100 chance of injecting John Cena on every new page load.
+A Google Chrome Extension has a 1/100 chance of injecting Rob Riggle on every new page load. This is a fork of Cenafy (https://github.com/Roystbeef/Cenafy)
 
-[Download](https://chrome.google.com/webstore/detail/cenafy/ndchmakhfaakbkhnkdgambadneloplnn/)
-
-Video sourced from [Instant Cena](http://instantcena.com) Thanks Tony! :D
+<!-- [Download](https://chrome.google.com/webstore/detail/cenafy/ndchmakhfaakbkhnkdgambadneloplnn/) -->
