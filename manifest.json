@@ -10,6 +10,13 @@
     }
   ],
 
-  "permissions": ["http://*/*", "https://*/*"],
-  "manifest_version": 2
+  "web_accessible_resources": [
+    {
+      "resources": ["cena.mp4"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ],
+
+  "host_permissions": ["<all_urls>"],
+  "manifest_version": 3
 }
